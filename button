@@ -2,9 +2,82 @@
 <html>
   <head>
     <meta charset="utf8">
-    <title>button</title>
-    <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/app.css">
+    <title>button</title> 
+    <style type="text/css">
+   a{
+    	background-color: transparent;
+    	-webkit-text-decoration-skip:objects;
+    	line-height: inherit;
+    	color: #1779ba;
+    	text-decoration: none;
+    	cursor: pointer;
+    }
+
+    p{
+
+        margin: 0;
+        padding: 0; 
+        margin-bottom: 1rem;
+        font-size: inherit;
+        line-height: 1.6;
+        text-rendering: optimizeLegibility; 
+    }
+    body{
+    	font-weight: normal;
+    }
+    .button {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 1rem 0;
+    font-family: inherit;
+    padding: 0.85em 1em;
+    -webkit-appearance: none;
+    border: 1px solid transparent;
+    border-radius: 0;
+    transition: background-color 0.25s ease-out, color 0.25s ease-out;
+    font-size: 0.9rem;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    background-color: #1779ba;
+    color: #fefefe;
+    }
+    .button:hover,.button:focus{
+    	background-color: #14679e;
+    	color: #fefefe;
+    }
+ 
+    .button.small{
+    	font-size: 0.75rem;
+    }
+
+    .button.secondary{
+    	background-color: #767676;
+    	color: #fefefe;
+    }
+    .button.secondary:hover,.button.secondary:focus{
+    	background-color: #5e5e5e;
+    	color: #fefefe;
+    }
+    .button.alert{
+    	background-color: #cc4b37;
+    	color: #fefefe;
+    }
+    .button.alert:hover,.button.alert:focus{
+    	background-color: #a53b2a;
+    	color: #fefefe;
+    }
+    .button.success{
+    	background-color: #3adb76;
+    	color: #0a0a0a;
+    }
+    .button.success:hover,.button.success:focus{
+    	background-color: #22bb5b;
+    	color: #fefefe;
+    }
+
+
+    </style>
 
   </head>
   <body>
